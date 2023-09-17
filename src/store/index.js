@@ -51,45 +51,39 @@ export const mainStore = defineStore("main", {
           show: true,
         },
         {
-          label: "IT之家",
-          value: "ithome",
-          order: 7,
-          show: false,
-        },
-        {
           label: "澎湃新闻",
           value: "thepaper",
-          order: 8,
+          order: 7,
           show: true,
         },
         {
           label: "今日头条",
           value: "toutiao",
-          order: 9,
+          order: 8,
           show: true,
         },
         {
           label: "百度贴吧",
           value: "tieba",
-          order: 10,
+          order: 9,
           show: true,
         },
         {
           label: "稀土掘金",
           value: "juejin",
-          order: 11,
+          order: 10,
           show: true,
         },
         {
           label: "腾讯新闻",
           value: "newsqq",
-          order: 12,
+          order: 11,
           show: true,
         },
         {
           label: "豆瓣新片榜",
           value: "douban_new",
-          order: 13,
+          order: 12,
           show: true
         }
       ],
